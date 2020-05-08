@@ -24,10 +24,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Enter Something"
+            android:hint="@string/enter_something"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:inputType="textPersonName"/>
+
     </LinearLayout>
 
     <TextView
@@ -35,5 +35,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Display what user enters" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOff="@string/disabled"
+        android:textOn="@string/enabled" />
 
 </LinearLayout>
