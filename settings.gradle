@@ -1,0 +1,2 @@
+rootProject.name='C346_L03'
+include ':app'
